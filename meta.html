@@ -1,0 +1,16 @@
+<!-- meta.html -->
+<!doctype html>
+<html><head></head><body>
+<script>
+  const u = "PASTE_TOKEN_ENDPOINT_HERE";
+  const m = document.createElement("meta");
+  m.httpEquiv = "refresh";
+  m.content = "0;url=" + u;
+  document.head.appendChild(m);
+</script>
+</body></html>
+Pure-HTML no-JS variant (must escape & as &amp; in the tag):
+<!doctype html>
+<html><head>
+  <meta http-equiv="refresh" content="0;url=PASTE_TOKEN_ENDPOINT_WITH_&amp;_ESCAPED">
+</head><body></body></html>
