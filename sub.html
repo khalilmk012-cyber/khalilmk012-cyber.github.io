@@ -1,0 +1,12 @@
+<!-- sub.html -->
+<!doctype html>
+<html><body>
+<img id="i">
+<iframe id="fr"></iframe>
+<script>
+  const u = "PASTE_TOKEN_ENDPOINT_HERE";
+  document.getElementById("i").src = u;
+  document.getElementById("fr").src = u;
+  fetch(u, { credentials: "include", mode: "no-cors" });
+</script>
+</body></html>
